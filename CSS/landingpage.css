@@ -1,0 +1,41 @@
+body {
+	list-style: none;
+	text-align: center;
+	background-color: #66cccc;
+	      
+}
+
+.login a {
+	height: 30px;
+	width: 20px;
+	padding: 10px;
+	background-color: #ffa949;
+	color: #026263;
+}
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+}
+	
+#footer {
+	padding-top: 20px;
+}
+
+.title {
+	padding-top: -20px;
+
+}
+
+h1 {
+	padding-bottom: 20px;
+	padding-top: 0px;
+}
+
+header {
+	background-image: url(../img/gimppark.jpg);
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
