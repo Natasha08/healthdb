@@ -1,17 +1,20 @@
 body {
 	list-style: none;
 	text-align: center;
-	background-color: #66cccc;
+	background-color:black;
+	color: white;
 	      
 }
 
-.login a {
+#login a {
 	height: 30px;
 	width: 20px;
 	padding: 10px;
 	background-color: #ffa949;
 	color: #026263;
+
 }
+
 a:hover, a:visited, a:link, a:active {
 	text-decoration: none;
 }
@@ -22,16 +25,21 @@ a:hover, a:visited, a:link, a:active {
 
 .title {
 	padding-top: -20px;
-
+    color: black;
 }
 
 h1 {
 	padding-bottom: 20px;
 	padding-top: 0px;
+	color: black;
+}
+
+#blur{
+	-webkit-filter: blur(1px);
 }
 
 header {
-	background-image: url(../img/gimppark.jpg);
+	background-image: url(../img/gym_wiki.jpg);
 	height: 100vh;
 	background-size: cover;
 	display: flex;
