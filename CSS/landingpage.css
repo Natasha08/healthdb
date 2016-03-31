@@ -8,8 +8,8 @@ body {
 
 #login a {
 	padding: 15px;
-	background-color: #ffa949;
-	color: #026263;
+	background-color: #f6fcff;
+	color: black;
 
 }
 
@@ -49,7 +49,7 @@ h2 {
 
 div.loginpanel {
 	padding: 15px;
-	background: #858585;
+	background: #bbbbbb;
 }
 
 header {
