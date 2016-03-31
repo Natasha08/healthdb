@@ -1,4 +1,4 @@
- 
+
 /* Base Styles -------------------- */
 
 * {
@@ -38,17 +38,6 @@ h1 {
 	      url(../img/mountains.jpg) no-repeat center;  	      
   background-size: cover; 
   
-}
-
-  .main-header2  {
-  padding-top: 170px;
-  height: 425px;
-  text-align: center;
-  
-  background: linear-gradient(#5cd6d6, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),
- 	      url(../img/mountains.jpg) no-repeat center;
-  background-size: cover;
 }
 
  .title {
