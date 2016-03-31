@@ -6,7 +6,7 @@
    <link href='http://fonts.googleapis.com/css?family=Marck+Script%7COpen+Sans:400italic,700italic,800italic,700,800,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body class="meat">
+  <body class="mainBody">
     <header id="top" class="main-header2">
       <h1 class="subhead">For the Greek Warrior</h1>
       <img class="arrow" src="img/arrow.svg" alt="Down arrow">
