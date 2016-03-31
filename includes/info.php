@@ -15,30 +15,20 @@
     <div class="primary-content t-border">
       <nav>
        <ul>
-         <li><a href="index.html">Logout</a></li>
+         <li><a href="/index.html">Logout</a></li>
        </ul>
       </nav>
       <nav>
        <ul>
-        <li><a href="input.htm">Input</a></li>
-        <li><a href="reports.htm">Reports</a></li>
-        <li><a href="nutrition.htm">Nutrition</a></li>
+        <li><a href="/input.htm">Input</a></li>
+        <li><a href="/reports.htm">Reports</a></li>
+        <li><a href="/nutrition.htm">Nutrition</a></li>
       </ul>
       </nav>
 
 <?php
- 
- if ( $_POST)
-{
 
-require '../connect_db.php';
-
-if (!$dbcon) {
-     die('Connection Failed');
-} else {
-     echo "<br><br><br>Great Job!<br>";
- }    
-
+require 'require.php';   
 
     
 $date= $_POST['date'];

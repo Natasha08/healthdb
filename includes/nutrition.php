@@ -26,17 +26,8 @@
       </nav>
 
 <?php
- 
- if ( $_POST)
-{
 
-require '../connect_db.php';
-
-if (!$dbcon) {
-     die('Connection Failed');
-} else {
-     echo "<br><br><br>Great Job!<br>";
- }    
+require 'require.php';    
 
     
 $food_name= $_POST['food_name'];

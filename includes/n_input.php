@@ -8,16 +8,8 @@
   </head>
 <?php
  
- if ( $_POST)
-{
+require 'require.php';
 
-require '../connect_db.php';
-
-if (!$dbcon) {
-     die('Connection Failed');
-} else {
-     echo "<br><br><br>Great Job!<br>";
- } 
 ?>  
  <table class="table">
  <tr class="table_title">  

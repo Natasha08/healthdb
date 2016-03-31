@@ -15,29 +15,20 @@
       <nav>
        <ul>
          <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-         <li><a href="index.html">Logout</a></li>
+         <li><a href="/index.html">Logout</a></li>
        </ul>
       </nav>
       <nav>
        <ul>
        <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
-        <li><a href="input.htm">Input</a></li>
-        <li><a href="reports.htm">Reports</a></li>
-        <li><a href="nutrition.htm">Nutrition</a></li>
+        <li><a href="/input.htm">Input</a></li>
+        <li><a href="/reports.htm">Reports</a></li>
+        <li><a href="/nutrition.htm">Nutrition</a></li>
       </ul>
      </nav>
 <?php
 
-require'../connect_db.php';
-
-// Create connection
-$dbcon = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$dbcon) {
-    die("Connection failed: " . mysqli_connect_error());
-} else {
-    echo "Connected". "<br>". "<br>";
-}
+require'require.php';
 
 ?>
 
