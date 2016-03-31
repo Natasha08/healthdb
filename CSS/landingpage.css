@@ -22,7 +22,8 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .title {
-    color: black;
+  	color: black;
+  	text-shadow: 3px 3px 5px rgba(0,0,0, .9);
 }
 
 h1 {
@@ -30,7 +31,8 @@ h1 {
 }
 
 h2 {
-	padding-bottom: 110px;
+	padding-bottom: 110px;	
+    font-weight: heavy;
 }
 
 .blurs{
@@ -39,6 +41,11 @@ h2 {
 
 .nonblur{
 	-webkit-filter: blur(0px);
+}
+
+div.loginpanel {
+	padding: 15px;
+	background: #858585;
 }
 
 header {
