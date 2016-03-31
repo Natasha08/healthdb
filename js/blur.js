@@ -4,6 +4,3 @@
 var lgbutton = document.getElementById('blurs');
 
 lgbutton.setAttribute('class', 'nonblur');
-
-
-
