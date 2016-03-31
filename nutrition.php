@@ -72,7 +72,7 @@ mysqli_close($dbcon);
 
 ?>
 </div>
-  <div class="main-footer2">
+  <div class="main-footer">
       <footer>
        <a href="http://twitter.com/natasha_marie_o"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
         <a href="http://facebook.com/greek_esposa"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
