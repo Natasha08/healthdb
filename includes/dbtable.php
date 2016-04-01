@@ -15,27 +15,20 @@
       <nav>
        <ul>
          <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-         <li><a href="index.html">Logout</a></li>
+         <li><a href="/index.html">Logout</a></li>
        </ul>
       </nav>
       <nav>
        <ul>
        <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
-        <li><a href="input.htm">Input</a></li>
-        <li><a href="reports.htm">Reports</a></li>
-        <li><a href="nutrition.htm">Nutrition</a></li>
+        <li><a href="/input.htm">Input</a></li>
+        <li><a href="/reports.htm">Reports</a></li>
+        <li><a href="/nutrition.htm">Nutrition</a></li>
       </ul>
      </nav>
 <?php
- 
-require'../connect_db.php';
 
-// Check connection
-if (!$dbcon) {
-    die("Connection failed: " . mysqli_connect_error());
-} else {
-    echo "Connected". "<br>". "<br>";
-}
+require'require.php';
 
 ?>
 
@@ -55,10 +48,11 @@ if (!$dbcon) {
  
  <?php
  
-   $sql= "SELECT * FROM otstudyc_greekgod.Workouts WHERE workout_day = 'Workout B'";
+   $sql= "SELECT * FROM otstudyc_greekgod.Workouts WHERE workout_day = 'Workout A'";
    
   $result = mysqli_query($dbcon, $sql); 
-  While ($rows = mysqli_fetch_array($result, MYSQLI_ASSOC)): ?>
+  While ($rows = mysqli_fetch_array($result, MYSQLI_ASSOC)):?> 
+  
 <tr class="t_column"> 
   <td><?php echo $rows['date']; ?></td>
   <td><?php echo $rows['key_lift1']; ?></td> 
@@ -69,8 +63,12 @@ if (!$dbcon) {
   <td><?php echo $rows['reps2']; ?></td>
   <td><?php echo $rows['reps3']; ?></td>
 </tr>
+
+
 <?php endwhile; ?> 
+
  </table> 
+
  
  <table class="table">
  <tr></tr>
@@ -87,10 +85,12 @@ if (!$dbcon) {
 
  <?php
  
-   $sql= "SELECT * FROM otstudyc_greekgod.Workouts WHERE workout_day = 'Workout B'";
+ require'require.php';
+ 
+  $sql= "SELECT * FROM otstudyc_greekgod.Workouts WHERE workout_day = 'Workout A'";
    
   $result = mysqli_query($dbcon, $sql); 
-  While ($rows = mysqli_fetch_array($result, MYSQLI_ASSOC)): ?>
+  While ($rows = mysqli_fetch_array($result, MYSQLI_ASSOC)):?> 
 
 <tr class="t_column">
   <td><?php echo $rows['date']; ?></td>
@@ -102,7 +102,9 @@ if (!$dbcon) {
   <td><?php echo $rows['reps5']; ?></td>
   <td><?php echo $rows['reps6']; ?></td>
 </tr>
+
 <?php endwhile; ?> 
+
 
   </table> 
  </div>

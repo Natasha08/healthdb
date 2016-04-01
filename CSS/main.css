@@ -86,7 +86,7 @@ h1 {
   color: white;
 }
 
-.main-footer a {
+.main-footer a, {
   text-decoration: none;
   color: white;
 }
@@ -129,7 +129,7 @@ nav {
   background-color: #fff;
 }
 
-nav ul {
+nav ul, ul a {
   list-style: none;
   margin: 0 10px;
   padding: 0;
@@ -147,7 +147,7 @@ nav a {
 
 /* nav link */
 nav a, nav a:visited {
-  color:#ffa949;
+  color: black;
 }
 
 /* selected nav link */
@@ -355,6 +355,23 @@ Nutrition Form
 .n_box {
 
 }
+
+/************************************************
+Privacy Page
+*************************************************/
+
+.privacy {
+  list-style: none;
+}
+
+ul a, li a {
+   text-decoration: none;
+   color: white;
+}
+
+
+
+
 /*****************************************************************************   
     html code
     <link rel="stylesheet" href="css/responsive.css">

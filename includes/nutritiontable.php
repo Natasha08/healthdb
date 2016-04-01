@@ -29,15 +29,7 @@
      
 <?php
 
-require '../connect_db.php';
-
-// Check connection
-if (!$dbcon) {
-    die("Connection failed: " . mysqli_connect_error());
-} else {
-    echo "Connected". "<br>". "<br>";
-}
-
+require 'require.php';
  
    $sql= "SELECT * FROM otstudyc_nwork.nutrition";
    
@@ -53,7 +45,10 @@ if (!$dbcon) {
   <input type="checkbox" value="<?php echo $rows['food_name']; ?>"></input>
 </tr>
 </table>
-<?php }endwhile; ?>
+<?php }endwhile; 
+mysqli_close($dbcon);
+
+?>
   <input type="submit" name="Submit Calories"></input>
 </form>
 
