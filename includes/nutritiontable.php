@@ -45,7 +45,10 @@ require 'require.php';
   <input type="checkbox" value="<?php echo $rows['food_name']; ?>"></input>
 </tr>
 </table>
-<?php }endwhile; ?>
+<?php }endwhile; 
+mysqli_close($dbcon);
+
+?>
   <input type="submit" name="Submit Calories"></input>
 </form>
 
