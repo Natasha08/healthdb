@@ -20,9 +20,9 @@
       </nav>
       <nav>
        <ul>
-        <li><a href="/input.htm">Input</a></li>
-        <li><a href="/reports.htm">Reports</a></li>
-        <li><a href="/nutrition.htm">Nutrition</a></li>
+        <li><a href="input.htm">Input</a></li>
+        <li><a href="reports.htm">Reports</a></li>
+        <li><a href="nutrition.htm">Nutrition</a></li>
       </ul>
       </nav>
 
@@ -68,11 +68,8 @@ if (mysqli_query($dbcon, $result)) {
     
     die("Error submitting form.");
 }
-
   
 mysqli_close($dbcon); 
-
- }
 
 ?>
 </div>
@@ -81,7 +78,7 @@ mysqli_close($dbcon);
        <a href="http://twitter.com/natasha_marie_o"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
         <a href="http://facebook.com/greek_esposa"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
         <p>&copy; 2015-2016 Natasha Osborne.</p>
-        <li><a href="privacy.html">Privacy Policy</a></li>
+        <a href="privacy.html">Privacy Policy</a>
       </footer>
   </div>
 </body>
