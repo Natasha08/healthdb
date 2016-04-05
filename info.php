@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>The Warrior's Pen</title>
+    <title>The Warrior Pen</title>
     <link rel="stylesheet" href="css/normalize.css">
    <link href='http://fonts.googleapis.com/css?family=Marck+Script%7COpen+Sans:400italic,700italic,800italic,700,800,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
@@ -15,7 +15,7 @@
     <div class="primary-content t-border">
       <nav>
        <ul>
-         <li><a href="/index.html">Logout</a></li>
+         <li><a href="index.html">Logout</a></li>
        </ul>
       </nav>
       <nav>
