@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Warrior's Pen</title>
+    <link rel="stylesheet" href="css/normalize.css">
+   <link href='http://fonts.googleapis.com/css?family=Marck+Script%7COpen+Sans:400italic,700italic,800italic,700,800,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="mainBody">
+    <header id="top" class="main-header">
+      <h1>For the Greek Warrior</h1>
+      <img class="arrow" src="img/arrow.svg" alt="Down arrow">
+    </header>
+    <div class="primary-content t-border">
+     <nav>
+      <ul>
+        <li><a href="reports.htm" class="selected">Reports</a></li>
+        <li><a href="input.htm">Workout Input</a></li>
+        <li><a href="nutrition.htm">Nutrition</a></li><br><br><br><br>
+      </ul>
+     </nav> 
+     <div class="report_divs">
+   <form action= "includes/dbtable.php" method="post" class="reports">
+      
+      <input class="submit" type="submit" id="submit" value="Workout A: Key Lifts Report"></input>    	
+     </form>
+     </div>
+     <div class="report_divs"> 
+  <form action= "includes/dbtable2.php" method="post" class="reports">      
+      <input class="submit" type="submit" id="submit" value="Workout B: Key Lifts Report"></input>    	
+     </form>  
+     </div>
+     <div class="report_divs"> 
+  <form action= "includes/dbtable3.php" method="post" class="reports">
+      	<input class="submit" type="submit" id="submit" value="Workout A: Secondary Lift Report"></input>     	
+     </form> 
+     </div>
+     <div class="report_divs">  
+  <form action= "includes/dbtable4.php" method="post" class="reports">
+      	<input class="submit" type="submit" id="submit" value="Workout B: Secondary Lifts Report"></input>     	
+     </form> 
+     </div>  
+    </div> 
+    <div class="main-footer">
+      <footer>
+       <a href="http://twitter.com/natasha_marie_o"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://facebook.com/greek_esposa"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2015-2016 Natasha Osborne.</p>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </footer>
+    </div>
+   </body>
+</html>
