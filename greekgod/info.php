@@ -28,7 +28,7 @@
       <nav>
        <ul>
 <<<<<<< HEAD
-         <li><a href="login.php">Logout</a></li><em><?php print_r ($_SESSION['first_name']);?></em>
+         <li><a href="index.php">Logout</a></li><em><?php print_r ($_SESSION['first_name']);?></em>
 =======
          <li><a href="index.html">Logout</a></li>
 >>>>>>> 27620d2e02544ceca6159927c73437832afcbf11
