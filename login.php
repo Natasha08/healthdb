@@ -1,6 +1,6 @@
 <?php 
 $page_title = 'Login';
-include 'includes/header.html';
+require 'header.html';
 ?>
 <!DOCTYPE html>
 <div class="modal">
@@ -25,5 +25,5 @@ include 'includes/header.html';
     	  echo '<p>Please try again or <a href="register.php">Register</a></p>';
   }
   
- include 'includes/footer.html';
+ require 'footer.html';
 ?> 

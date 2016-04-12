@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 <?php
 	session_start();
 	require 'login_tools.php';
-	
 ?>
 <!DOCTYPE html>
-=======
->>>>>>> 27620d2e02544ceca6159927c73437832afcbf11
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,38 +12,19 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body class="mainBody">
-<<<<<<< HEAD
-=======
-    <body class="mainBody">
->>>>>>> 27620d2e02544ceca6159927c73437832afcbf11
-    <header id="top" class="main-header">
-      <h1>For the Greek Warrior</h1>
-      <img class="arrow" src="img/arrow.svg" alt="Down arrow">
-    </header>
-    <div class="primary-content t-border">
-      <nav>
-       <ul>
-<<<<<<< HEAD
-         <li><a href="index.php">Logout</a></li><em><?php print_r ($_SESSION['first_name']);?></em>
-=======
-         <li><a href="index.html">Logout</a></li>
->>>>>>> 27620d2e02544ceca6159927c73437832afcbf11
+         <li><a href="login.php">Logout</a></li><em><?php print_r ($_SESSION['first_name']);?></em>
        </ul>
       </nav>
       <nav>
        <ul>
-<<<<<<< HEAD
         <li><a href="input.php">Input</a></li>
         <li><a href="reports.php">Reports</a></li>
         <li><a href="nutrition.php">Nutrition</a></li>
-=======
-        <li><a href="input.htm">Input</a></li>
-        <li><a href="reports.htm">Reports</a></li>
-        <li><a href="nutrition.htm">Nutrition</a></li>
->>>>>>> 27620d2e02544ceca6159927c73437832afcbf11
+        <li><a href="input.php">Input</a></li>
+        <li><a href="reports.php">Reports</a></li>
+        <li><a href="nutrition.php">Nutrition</a></li>
       </ul>
       </nav>
-
 <?php
 <<<<<<< HEAD
 if ( $_POST)

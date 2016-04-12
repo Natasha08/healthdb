@@ -20,7 +20,7 @@ if  ( $check ) {
 
 mysqli_close($dbcon); 
 }
-require 'index.php';
+require 'login.php';
 
 
 ?>
