@@ -3,6 +3,7 @@
 	require 'login_tools.php';
 	
 ?>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">

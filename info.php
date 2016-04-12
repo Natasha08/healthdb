@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body class="mainBody">
+    <nav>
+      <ul>
          <li><a href="login.php">Logout</a></li><em><?php print_r ($_SESSION['first_name']);?></em>
        </ul>
       </nav>
