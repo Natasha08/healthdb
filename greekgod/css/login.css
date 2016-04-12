@@ -1,0 +1,202 @@
+/* Base Styles -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+
+body,
+body a,
+body li {
+  color: black;
+  margin: 0;
+  font: 1em/1.5 "Open Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1 {  
+  font-size: 5.625rem; /* 90px/16px  */
+  color: black;
+/*  text-transform: uppercase;*/
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: 5px 5px 5px rgba(0,0,0, .9);
+  margin: 20px 0 0;
+  padding-bottom: 10px;
+}
+
+  /* Main Styles --------------------- */
+  
+ .main-header {
+  padding-top: 170px;
+  height: 850px;
+}
+
+body {  
+  background-image: url("../img/woodpanel.gif");  	       
+ }
+/*********************************************************testing tile pattern    
+  background: linear-gradient(#fff, transparent 30%),
+	      linear-gradient(0deg, #fff, transparent 20%),
+	      url(../img/mountains.jpg) no-repeat center;  	      
+  background-size: cover; 
+  
+
+*********************************************************/
+ .title {
+  color: black;
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px; 
+  }
+    
+  .intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6; 
+  padding-bottom: 650px; 
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.primary-content {
+  padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.t-border {
+  border-top: 2px solid #dfe2e6;
+  height: auto;
+}    
+
+ .main-footer {
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  color: white;
+}
+
+a, a: visited {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+/* Layout Styles ------------------ */
+
+.primary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+  }
+  
+
+/************************************************
+NAVIGATION
+*************************************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  background-color: #fff;
+}
+
+nav ul, ul a {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: black;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #66cccc;
+}
+
+/************************************************
+Login Page
+*************************************************/
+/**********************************************
+.loginpage {
+	background-color: white;
+	width: 100%;
+	opacity: .3;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.loginform {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	opacity: 1; 
+	color: black; 
+}
+********************************************/
+main-header {
+  display: inline-block;
+  text-align: center;
+}
+
+.loginheading {
+  text-align: center;
+}
+.modal {
+    /* some styles to position the modal at the center of the page */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    margin-left: -175px;
+    margin-top: -100px;
+    background-color: #e6d89b;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    outline: 9999px solid rgba(0,0,0,0.5);
+}
+
+.loginButton {
+	width: 23%;
+	height: 10%;
+	margin: 0px;
+	padding: 0px;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Strength Training App",
+  "version": "1.0.0",
+  "description": "git grunt",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "lodash": "^4.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.otstudy.com"
+  },
+  "author": "Natasha Osborne <natashaosborne@otstudy.com> (natashaosborne.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Natasha08/healthdb/issues"
+  },
+  "homepage": "https://github.com/Natasha08/healthdb#readme"
+}
