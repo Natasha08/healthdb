@@ -278,7 +278,9 @@ tr {
 .t_column {
   border: 5px solid #e6d89b;
 }
-
+ .hideTable {
+  display: none;
+ }
 /************************************************
 Report Button form	
 *************************************************/

@@ -37,7 +37,7 @@ require'../connect_db.php';
 
 ?>
 
-<table class="table">
+<table class="table hideTable" id="table3">
  <tr></tr>
  <tr class="table_title">  
    <th> Date</th>
@@ -70,7 +70,7 @@ require'../connect_db.php';
 <?php endwhile; ?> 
  </table> 
  
- <table class="table">
+ <table class="table" id="table4">
  <tr></tr>
  <tr class="table_title">  
    <th> Date</th>
