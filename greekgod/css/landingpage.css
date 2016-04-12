@@ -1,0 +1,61 @@
+body {
+	list-style: none;
+	text-align: center;
+	background-color:black;
+	color: white;
+	      
+}
+
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+} 
+	
+#footer {
+	padding-top: 20px;
+}
+
+#footer a {
+	color: white;
+}
+
+.title {
+  	color: black;
+  	text-shadow: 3px 3px 5px rgba(0,0,0, .9);
+}
+
+h1 {
+	padding-bottom: 50px;
+}
+
+h2 {
+	padding-bottom: 110px;	
+    font-weight: heavy;
+}
+
+
+div.loginpanel {
+	padding: 15px;
+}
+
+header {
+	background-image: url(../img/Gym_wiki.jpg);
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.loginbutton {
+    
+    width: 400px;
+    height: 281px;
+}
+
+/* resize images */
+.loginbutton img {
+    width: 100%;
+    height: auto;
+
+}
