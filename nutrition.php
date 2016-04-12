@@ -64,8 +64,6 @@ if (mysqli_query($dbcon, $fdata)) {
   
 mysqli_close($dbcon); 
 
- }
-
 ?>
 </div>
   <div class="main-footer">
