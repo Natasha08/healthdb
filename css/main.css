@@ -278,16 +278,7 @@ tr {
 .t_column {
   border: 5px solid #e6d89b;
 }
- #table1,
- #table2,
- #table3,
- #table4,
- #table5,
- #table6,
- #table7,
- #table8 {
-  display: none;
- }
+
 /************************************************
 Report Button form	
 *************************************************/
