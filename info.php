@@ -26,7 +26,7 @@
       </ul>
       </nav>
 <?php
-<<<<<<< HEAD
+
 if ( $_POST)
 {
 
@@ -39,13 +39,6 @@ if (!$dbcon) {
  }
  
 $date = $_POST['date'];
-=======
-
-require 'require.php';   
-
-    
-$date= $_POST['date'];
->>>>>>> 27620d2e02544ceca6159927c73437832afcbf11
 $workout_day= $_POST['workout_day'];
 $key_lift1= $_POST['key_lift1'];
 $weight1= $_POST['weight1'];
@@ -72,19 +65,11 @@ $reps10= $_POST['reps10'];
 $reps11= $_POST['reps11'];
 $reps12= $_POST['reps12'];
 
-<<<<<<< HEAD
 $result = "INSERT INTO otstudyc_greekgod.workouts (date, workout_day, key_lift1, weight1, weight2, weight3, reps1, reps2, reps3, key_lift2, weight4, weight5, weight6, reps4, reps5, reps6, secondary_lift1, weight7, reps7, reps8, reps9, secondary_Lift2, weight8, reps10, reps11, reps12) VALUES ('$date', '$workout_day', '$key_lift1', '$weight1', '$weight2', '$weight3', '$reps1', '$reps2', '$reps3', '$key_lift2', '$weight4', '$weight5', '$weight6', '$reps4', '$reps5', '$reps6', '$secondary_Lift1', '$weight7', '$reps7', '$reps8', '$reps9', '$secondary_Lift2', '$weight8', '$reps10', '$reps11', '$reps12')"; 
 
 if (mysqli_query($dbcon, $result)) {
 
     echo "Your workout has been saved.";
-=======
-$result = "INSERT INTO greekgod.workout (date, workout_day, key_lift1, weight1, weight2, weight3, reps1, reps2, reps3, key_lift2, weight4, weight5, weight6, reps4, reps5, reps6, secondary_lift1, weight7, reps7, reps8, reps9, secondary_Lift2, weight8, reps10, reps11, reps12) VALUES ('$date', '$workout_day', '$key_lift1', '$weight1', '$weight2', '$weight3', '$reps1', '$reps2', '$reps3', '$key_lift2', '$weight4', '$weight5', '$weight6', '$reps4', '$reps5', '$reps6', '$secondary_Lift1', '$weight7', '$reps7', '$reps8', '$reps9', '$secondary_Lift2', '$weight8', '$reps10', '$reps11', '$reps12')"; 
-
-if (mysqli_query($dbcon, $result)) {
-
-    echo "<br><br<br>Your workout has been saved.";
->>>>>>> 27620d2e02544ceca6159927c73437832afcbf11
      
 } else {
     
@@ -92,15 +77,10 @@ if (mysqli_query($dbcon, $result)) {
 }
   
 mysqli_close($dbcon); 
-<<<<<<< HEAD
+
 }
  
 ?>
-
-=======
-
-?>
->>>>>>> 27620d2e02544ceca6159927c73437832afcbf11
 </div>
   <div class="main-footer">
       <footer>
