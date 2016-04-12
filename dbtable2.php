@@ -37,7 +37,7 @@ require'../connect_db.php';
 
 ?>
 
-<table class="table hideTable" id="table3">
+<table class="table" id="table3">
  <tr></tr>
  <tr class="table_title">  
    <th> Date</th>
