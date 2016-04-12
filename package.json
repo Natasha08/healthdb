@@ -1,19 +1,20 @@
 {
-  "name": "Strength Training App",
+  "name": "strength_training_app",
   "version": "1.0.0",
-  "description": "git grunt",
-  "main": "index.js",
+  "description": "PHP app to track workouts",
+  "main": "Gruntfile.js",
   "dependencies": {
-    "grunt": "^1.0.1",
-    "lodash": "^4.9.0"
+    "grunt": "^1.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "www.otstudy.com"
+    "url": "git+ssh://git@github.com/Natasha08/healthdb.git"
   },
   "author": "Natasha Osborne <natashaosborne@otstudy.com> (natashaosborne.com)",
   "license": "ISC",
